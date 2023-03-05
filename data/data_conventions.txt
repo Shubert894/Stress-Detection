@@ -1,0 +1,20 @@
+Data that don't conform to any convention 
+is found in the folder 'unconventioned'
+
+Data that were standardized according to 
+a convention below is kept in the folder 'conventioned'
+
+'''
+Processed Data Convention 1 (PDC1):
+
+Data        Labels
+[a b c]     [lab1]        
+[d e f]     [lab2]
+[g h i]     [lab3]
+[j k l]     [lab4]
+
+Dictionary format:
+{ name: '', pdc: '', sampling: 512, labels: [lab1, lab2, lab3], data: [[a b c], [d e f], [g, h, i]]}
+
+Saving in JSON format
+''''
